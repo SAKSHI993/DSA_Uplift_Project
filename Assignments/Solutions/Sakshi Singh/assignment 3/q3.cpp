@@ -10,7 +10,7 @@ int main(){
 
     }
         sc=1,sr=1,ec=m,er=n;
-    while(ec>sc&&er>sr){
+    while(ec>=sc&&er>=sr){
 
     for(j=sc;j<=ec;j++)
     {
@@ -27,7 +27,8 @@ int main(){
     er--;
     for(i=er;i>=sr;i--){
         cout<<a[i][sc];
-        sc++;
-    }}
+    }
+      sc++;
+    }
     return 0;
 }
